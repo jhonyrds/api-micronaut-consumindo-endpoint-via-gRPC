@@ -22,7 +22,6 @@ class CalculadoraDeFretesController(@Inject val gRpcClient: FretesServiceGrpc.Fr
             cep = response.cep,
             valor = response.valor
         )
-        
     }
 }
 
